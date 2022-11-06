@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- JQuery dependency -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- ADD SEMANTIC UI LIBRARY SOURCE CODE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"
+        integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"
+        integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles.css">
+    <script src="./data.js"> </script>
+    <script src="./lyrics.js"></script>
+
+
+    <style>
+
+        body{
+            /* background-color: #a0aede; */
+            background-color: #d0eefb;
+            /*padding: 5%;*/
+        }
+        </style>
+</head>
+
+<body class="ui container" onload="load()">
+
+    <div class="ui top sidebar">
+        <a href = "./index.html"> <!--link to home-->
+            <h1 style="color: #1b264f; font-size: 100%">LyricGenius</h1>
+        </a>
+    </div>
+    <a href = "./index.html"> <!--link to home-->
+        <img class="ui mini left rounded floated image" src="./Screen_Shot_2022-11-05_at_1.01.51_PM-removebg-preview (1).png">
+        <h1 style="color: #1b264f; font-size: 100%">LyricGenius</h1>
+    </a>
+    <center><div class="two-part" style="color:#1b264f;margin-top:50px; margin-bottom:50px">
+        <div class="left">
+            <a href = "./index.html">
+                <img class="ui small left image" src="./Screen_Shot_2022-11-05_at_1.01.51_PM-removebg-preview (1).png">
+            </a>
+        </div>
+        <div class="right">
+            
+        </div>
+    </div>
+    
+    
+    <div class = "ui segment scroll">
+        <div id = "display"> </div>
+    </div>
+    </center>
+
+
+</body>
+
+</html>

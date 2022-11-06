@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- JQuery dependency -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- ADD SEMANTIC UI LIBRARY SOURCE CODE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"
+        integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"
+        integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles.css">
+    <script src="./submitted.js"></script>
+
+
+    <style>
+        body{
+            background-color: #d0eefb;
+        }
+    </style>
+</head>
+
+<body class="ui container" onload="load()">
+    <center><div class="ui raised segment two-part">
+        <div class="left">
+            <a href = "./index.html">
+                <img class="ui small left image" src="./Screen_Shot_2022-11-05_at_1.01.51_PM-removebg-preview (1).png">
+            </a>
+        </div>
+        <div class="right">
+            
+        </div>
+    </div>
+    
+    
+    <div class = "ui segment">
+        <p>Number Correct: <span id = "correct"></span></p>
+        <p>Total: <span id = "totalNum"></span></p>
+        <p>Percentage: <span id = "percentage"></span></p>
+        <!-- <p>Number Correct: <div id = "correct"></div></p>
+        <p>Total: <div id = "totalNum"></div></p>
+        <p>Percentage: <div id = "percentage"></div></p> -->
+    </div></center>
+
+
+</body>
+
+</html>
